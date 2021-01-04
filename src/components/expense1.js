@@ -136,7 +136,7 @@ class ExpTable extends React.Component {
     const posts=this.state.posts;
     const columns = [
       {
-        title: "ExpenseNames",
+        title: "ExpenseName",
         dataIndex: "expenseName",
         key: "1"
       },
