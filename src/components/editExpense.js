@@ -201,7 +201,7 @@ class Editexpense extends React.Component {
               onClick={() => this.props.closeModal()}
               style={{ marginLeft: 8 }}
             >
-              Cancel
+              Cancel Button
             </Button>
           </Col>
         </Row>
