@@ -2,8 +2,8 @@
 
 pipeline {
 
-    agent {
-        ashwin {
+    agent any{
+        docker {
             image 'node'
             args '-u root'
         }
