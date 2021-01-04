@@ -1,0 +1,51 @@
+.logincard {
+  position: sticky;
+  margin: auto;
+  margin-top: 125px;
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+.login-form {
+  background-color: white;
+  display: inline-block;
+  margin: auto;
+  width: 450px;
+  border: 1px black;
+  text-align: left;
+  font-size: 18px;
+}
+@media only screen and (max-width: 500px) {
+  .logincard {
+    width: calc(100% - 10px);
+  }
+  .login-form {
+    width: 100%;
+  }
+  .ant-card-body {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+.ant-form-item label {
+  font-size: 16px;
+}
+
+.login {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+.register {
+  width: 100%;
+  color: blue;
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+label {
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+}

@@ -1,0 +1,96 @@
+.sider {
+  font-size: 16px;
+  width: 200px;
+  padding-top: 30px;
+}
+.header {
+  float: left;
+  padding-left: 20px;
+}
+.ReportsPage {
+  font-size: 16px;
+  width: 200px;
+  padding-top: 30px;
+}
+
+.expense_back {
+  height: 400px;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 80px;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  box-shadow: 5px 10px;
+  font-size: 40px;
+  text-align: center;
+}
+.expense_back:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: white;
+}
+.count {
+  margin-top: 100px;
+  font-size: 40px;
+  text-align: center;
+}
+b {
+  color: blue;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.circle {
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  text-align: center;
+  display: inline-flex;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 60px;
+}
+.reports_back {
+  height: 400px;
+  width: 500px;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 30px;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  box-shadow: 5px 10px;
+  text-align: center;
+}
+.reports_back:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: white;
+}
+
+.content {
+  margin: 24px 16px;
+  padding: 24px;
+  background: "#fff";
+  height: 600px;
+}
+
+.ant-layout,
+.ant-layout * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: large;
+}

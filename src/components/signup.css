@@ -1,0 +1,38 @@
+@media only screen and (min-width: 400px){
+form {
+  background-color: white;
+  display: inline-block;
+  margin: auto;
+  width: 450px;
+  border: 1px black;
+  padding-top: 800px;
+  padding-right: 100px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.ant-form-item-label {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 39.9999px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+
+.submit {
+  width: 450px;
+  text-align: center;
+  font-size: 16px;
+}
+.cancel {
+  width: 450px;
+  color: blue;
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+}
+input {
+  width: 100%;
+}
+}
