@@ -5,6 +5,7 @@
   "dependencies": {
     "history": "^4.9.0",
     "multiselect-dropdown-react": "^1.0.5",
+    "antd": "^3.26.12",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-dropdown": "^1.6.4",
