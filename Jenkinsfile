@@ -1,25 +1,16 @@
-#!/usr/bin/env groovy
-
 pipeline {
-
-    agent any{
-        docker {
-            image 'node'
-            args '-u root'
-        }
-    }
-
-    stages {
-        stage('Build') {
+     agent any
+     stages {
+        stage("Build") {
             steps {
-                echo 'Building...'
-                sh 'npm install'
+                sh "sudo npm install"
+                sh "sudo npm run build"
             }
         }
-        stage('Test') {
+        stage("Deploy") {
             steps {
-                echo 'Testing...'
-                sh 'npm test'
+                sh "sudo rm -rf /var/www/jenkins-react-app"
+                sh "sudo cp -r ${WORKSPACE}/build/ /var/www/jenkins-react-app/"
             }
         }
     }
